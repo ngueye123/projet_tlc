@@ -1,0 +1,7 @@
+function main :
+read X
+%
+  Y := X
+  Z := Y
+%
+write Z

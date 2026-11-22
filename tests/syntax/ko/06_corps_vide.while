@@ -1,0 +1,6 @@
+// Le corps doit contenir au moins une commande (utiliser nop).
+function main :
+read X
+%
+%
+write X

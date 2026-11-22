@@ -1,0 +1,3 @@
+tests/syntax/ko/07_caractere_inconnu.while:4:9: erreur lexicale : caractère inattendu '@'
+tests/syntax/ko/07_caractere_inconnu.while:4:11: erreur de syntaxe : construction invalide à 'nil' (commande, expression ou mot-clé attendu)
+2 erreur(s), compilation interrompue.

@@ -1,0 +1,2 @@
+tests/syntax/ko/08_nom_fonction_majuscule.while:2:9: erreur de syntaxe : attendu : un Symbol (identifiant commençant par une minuscule), trouvé : 'Main'
+1 erreur(s), compilation interrompue.

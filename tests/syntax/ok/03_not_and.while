@@ -1,0 +1,22 @@
+// Fonctions logiques de la spécification : if/then/else imbriqués, appels sans argument.
+function not :
+read Op1
+%
+  if Op1 then Result := (false) else Result := (true) fi
+%
+write Result
+
+function and :
+read Op1, Op2
+%
+  if (not Op1) then
+    Result := (false)
+  else
+    if (not Op2) then
+      Result := (false)
+    else
+      Result := (true)
+    fi
+  fi
+%
+write Result

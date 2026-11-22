@@ -1,0 +1,2 @@
+tests/syntax/ko/06_corps_vide.while:5:0: erreur de syntaxe : construction invalide à '%' (commande, expression ou mot-clé attendu)
+1 erreur(s), compilation interrompue.

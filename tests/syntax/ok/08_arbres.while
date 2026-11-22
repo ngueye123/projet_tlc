@@ -1,0 +1,16 @@
+// Toutes les formes de construction d'arbres : cons/list avec 0, 1, 2, n arguments,
+// hd/tl imbriqués, symboles comme feuilles.
+function main :
+read X
+%
+  A := (cons) ;
+  B := (cons X) ;
+  C := (cons X nil) ;
+  D := (cons a b c d) ;
+  E := (list) ;
+  F := (list X) ;
+  G := (list int (cons nil nil) string) ;
+  H := (hd (tl (hd X))) ;
+  I := (cons (cons (cons (cons ceci est) une) liste) nil)
+%
+write A, B, C, D, E, F, G, H, I

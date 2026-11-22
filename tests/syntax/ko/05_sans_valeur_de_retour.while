@@ -1,0 +1,7 @@
+// Une fonction doit avoir au moins une valeur de retour.
+function main :
+read X
+%
+  nop
+%
+write

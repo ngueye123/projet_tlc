@@ -1,0 +1,7 @@
+// Le ';' sépare les commandes : il n'en faut pas après la dernière.
+function main :
+read X
+%
+  Y := X ;
+%
+write Y

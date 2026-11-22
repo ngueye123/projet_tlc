@@ -1,0 +1,2 @@
+tests/syntax/ko/05_sans_valeur_de_retour.while:8:0: erreur de syntaxe : attendu : une Variable (identifiant commençant par une majuscule), trouvé : la fin du fichier
+1 erreur(s), compilation interrompue.

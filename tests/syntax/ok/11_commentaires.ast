@@ -1,0 +1,19 @@
+PROGRAM
+  FUNCTION
+    main                      (Symbol)
+    INPUT
+      X                       (Variable)
+      Y                       (Variable)
+    COMMANDS
+      ASSIGN
+        VARS
+          Z                   (Variable)
+        EXPRS
+          X                   (Variable)
+      ASSIGN
+        VARS
+          Z                   (Variable)
+        EXPRS
+          Y                   (Variable)
+    OUTPUT
+      Z                       (Variable)

@@ -1,0 +1,11 @@
+// Boucle while et opérateur d'égalité =? (avec appel, variable, nil, symbole).
+function main :
+read X, Y
+%
+  while (hd X) =? nil do
+    X := (tl X)
+  od ;
+  if X =? Y then R := ok else R := ko fi ;
+  while (not (hd X)) =? (cons nil nil) do nop od
+%
+write R

@@ -1,0 +1,11 @@
+# Fichiers générés par ./build.sh (ne pas versionner : ./build.sh les recrée)
+/build/
+/gen/
+/out/
+*.class
+*.dot
+*.png
+!docs/*.png
+
+# Configuration IDE (propre à chaque poste)
+.idea/

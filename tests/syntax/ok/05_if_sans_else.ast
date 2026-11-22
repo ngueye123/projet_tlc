@@ -1,0 +1,32 @@
+PROGRAM
+  FUNCTION
+    main                      (Symbol)
+    INPUT
+      X                       (Variable)
+    COMMANDS
+      IF
+        X                     (Variable)
+        COMMANDS
+          ASSIGN
+            VARS
+              Y               (Variable)
+            EXPRS
+              X               (Variable)
+      IF
+        HD
+          X                   (Variable)
+        COMMANDS
+          ASSIGN
+            VARS
+              Y               (Variable)
+            EXPRS
+              TL
+                X             (Variable)
+          ASSIGN
+            VARS
+              Z               (Variable)
+            EXPRS
+              Y               (Variable)
+    OUTPUT
+      Y                       (Variable)
+      Z                       (Variable)

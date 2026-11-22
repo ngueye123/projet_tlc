@@ -1,0 +1,36 @@
+PROGRAM
+  FUNCTION
+    main                      (Symbol)
+    INPUT
+      L                       (Variable)
+      N                       (Variable)
+    COMMANDS
+      ASSIGN
+        VARS
+          Count               (Variable)
+        EXPRS
+          NIL
+      FOREACH
+        E                     (Variable)
+        L                     (Variable)
+        COMMANDS
+          FOR
+            N                 (Variable)
+            COMMANDS
+              ASSIGN
+                VARS
+                  Count       (Variable)
+                EXPRS
+                  CONS
+                    NIL
+                    Count     (Variable)
+      FOREACH
+        E                     (Variable)
+        LIST
+          a                   (Symbol)
+          b                   (Symbol)
+          c                   (Symbol)
+        COMMANDS
+          NOP
+    OUTPUT
+      Count                   (Variable)

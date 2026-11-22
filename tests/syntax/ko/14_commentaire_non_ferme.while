@@ -1,0 +1,6 @@
+function main :
+read X
+%
+  nop /* commentaire jamais fermé
+%
+write X

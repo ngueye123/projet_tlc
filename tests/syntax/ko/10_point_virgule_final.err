@@ -1,0 +1,2 @@
+tests/syntax/ko/10_point_virgule_final.while:6:0: erreur de syntaxe : construction invalide à '%' (commande, expression ou mot-clé attendu)
+1 erreur(s), compilation interrompue.

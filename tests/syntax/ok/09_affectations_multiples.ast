@@ -1,0 +1,51 @@
+PROGRAM
+  FUNCTION
+    divmod                    (Symbol)
+    INPUT
+      A                       (Variable)
+      B                       (Variable)
+    COMMANDS
+      ASSIGN
+        VARS
+          Q                   (Variable)
+          R                   (Variable)
+        EXPRS
+          NIL
+          A                   (Variable)
+    OUTPUT
+      Q                       (Variable)
+      R                       (Variable)
+  FUNCTION
+    main                      (Symbol)
+    INPUT
+      X                       (Variable)
+      Y                       (Variable)
+    COMMANDS
+      ASSIGN
+        VARS
+          X                   (Variable)
+          Y                   (Variable)
+        EXPRS
+          Y                   (Variable)
+          X                   (Variable)
+      ASSIGN
+        VARS
+          Q                   (Variable)
+          R                   (Variable)
+        EXPRS
+          CALL
+            divmod            (Symbol)
+            X                 (Variable)
+            Y                 (Variable)
+      ASSIGN
+        VARS
+          P                   (Variable)
+        EXPRS
+          CALL
+            divmod            (Symbol)
+            X                 (Variable)
+            Y                 (Variable)
+    OUTPUT
+      Q                       (Variable)
+      R                       (Variable)
+      P                       (Variable)

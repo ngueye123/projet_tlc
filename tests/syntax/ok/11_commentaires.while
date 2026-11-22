@@ -1,0 +1,10 @@
+// Commentaire sur une ligne en tête de fichier
+/* Commentaire
+   sur plusieurs lignes */
+function main : // commentaire en fin de ligne
+read X /* commentaire au milieu */ , Y
+%
+  // commentaire entre deux commandes
+  Z := X ; /* ici aussi */ Z := Y
+%
+write Z

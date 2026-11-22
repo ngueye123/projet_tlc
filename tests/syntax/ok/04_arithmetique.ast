@@ -1,0 +1,65 @@
+PROGRAM
+  FUNCTION
+    add                       (Symbol)
+    INPUT
+      Op1                     (Variable)
+      Op2                     (Variable)
+    COMMANDS
+      ASSIGN
+        VARS
+          Result              (Variable)
+        EXPRS
+          Op1                 (Variable)
+      FOR
+        Op2                   (Variable)
+        COMMANDS
+          ASSIGN
+            VARS
+              Result          (Variable)
+            EXPRS
+              CONS
+                NIL
+                Result        (Variable)
+    OUTPUT
+      Result                  (Variable)
+  FUNCTION
+    sub                       (Symbol)
+    INPUT
+      Op1                     (Variable)
+      Op2                     (Variable)
+    COMMANDS
+      ASSIGN
+        VARS
+          Result              (Variable)
+        EXPRS
+          Op1                 (Variable)
+      FOR
+        Op2                   (Variable)
+        COMMANDS
+          ASSIGN
+            VARS
+              Result          (Variable)
+            EXPRS
+              TL
+                Result        (Variable)
+    OUTPUT
+      Result                  (Variable)
+  FUNCTION
+    mul                       (Symbol)
+    INPUT
+      Op1                     (Variable)
+      Op2                     (Variable)
+    COMMANDS
+      FOR
+        Op1                   (Variable)
+        COMMANDS
+          ASSIGN
+            VARS
+              Result          (Variable)
+            EXPRS
+              CALL
+                add           (Symbol)
+                Result        (Variable)
+                Op2           (Variable)
+    OUTPUT
+      Result                  (Variable)

@@ -1,0 +1,9 @@
+PROGRAM
+  FUNCTION
+    main                      (Symbol)
+    INPUT
+      X                       (Variable)
+    COMMANDS
+      NOP
+    OUTPUT
+      X                       (Variable)

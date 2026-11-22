@@ -1,0 +1,6 @@
+function main :
+read X
+%
+  if X then Y := X od
+%
+write Y

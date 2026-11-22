@@ -1,0 +1,7 @@
+// hd et tl prennent exactement une expression.
+function main :
+read A, B
+%
+  R := (hd A B)
+%
+write R

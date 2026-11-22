@@ -1,0 +1,7 @@
+// Un nom de fonction est un Symbol (minuscule).
+function Main :
+read X
+%
+  nop
+%
+write X

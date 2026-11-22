@@ -1,0 +1,2 @@
+tests/syntax/ko/09_point_virgule_manquant.while:5:2: erreur de syntaxe : construction invalide à 'Z' (commande, expression ou mot-clé attendu)
+1 erreur(s), compilation interrompue.

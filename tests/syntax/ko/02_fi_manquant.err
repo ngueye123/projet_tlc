@@ -1,0 +1,2 @@
+tests/syntax/ko/02_fi_manquant.while:4:19: erreur de syntaxe : attendu : 'fi', trouvé : 'od'
+1 erreur(s), compilation interrompue.

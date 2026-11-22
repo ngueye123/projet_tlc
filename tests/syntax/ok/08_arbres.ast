@@ -1,0 +1,85 @@
+PROGRAM
+  FUNCTION
+    main                      (Symbol)
+    INPUT
+      X                       (Variable)
+    COMMANDS
+      ASSIGN
+        VARS
+          A                   (Variable)
+        EXPRS
+          CONS
+      ASSIGN
+        VARS
+          B                   (Variable)
+        EXPRS
+          CONS
+            X                 (Variable)
+      ASSIGN
+        VARS
+          C                   (Variable)
+        EXPRS
+          CONS
+            X                 (Variable)
+            NIL
+      ASSIGN
+        VARS
+          D                   (Variable)
+        EXPRS
+          CONS
+            a                 (Symbol)
+            b                 (Symbol)
+            c                 (Symbol)
+            d                 (Symbol)
+      ASSIGN
+        VARS
+          E                   (Variable)
+        EXPRS
+          LIST
+      ASSIGN
+        VARS
+          F                   (Variable)
+        EXPRS
+          LIST
+            X                 (Variable)
+      ASSIGN
+        VARS
+          G                   (Variable)
+        EXPRS
+          LIST
+            int               (Symbol)
+            CONS
+              NIL
+              NIL
+            string            (Symbol)
+      ASSIGN
+        VARS
+          H                   (Variable)
+        EXPRS
+          HD
+            TL
+              HD
+                X             (Variable)
+      ASSIGN
+        VARS
+          I                   (Variable)
+        EXPRS
+          CONS
+            CONS
+              CONS
+                CONS
+                  ceci        (Symbol)
+                  est         (Symbol)
+                une           (Symbol)
+              liste           (Symbol)
+            NIL
+    OUTPUT
+      A                       (Variable)
+      B                       (Variable)
+      C                       (Variable)
+      D                       (Variable)
+      E                       (Variable)
+      F                       (Variable)
+      G                       (Variable)
+      H                       (Variable)
+      I                       (Variable)

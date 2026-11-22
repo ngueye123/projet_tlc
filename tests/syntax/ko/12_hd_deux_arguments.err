@@ -1,0 +1,2 @@
+tests/syntax/ko/12_hd_deux_arguments.while:5:13: erreur de syntaxe : lexème inattendu 'B' (attendu : ')')
+1 erreur(s), compilation interrompue.

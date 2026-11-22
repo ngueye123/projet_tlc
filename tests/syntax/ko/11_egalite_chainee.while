@@ -1,0 +1,7 @@
+// =? ne se chaîne pas : A =? B =? C est interdit par la grammaire.
+function main :
+read A, B, C
+%
+  R := A =? B =? C
+%
+write R

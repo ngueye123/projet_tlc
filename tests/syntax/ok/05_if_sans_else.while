@@ -1,0 +1,11 @@
+// if sans else, et if dont la branche contient plusieurs commandes.
+function main :
+read X
+%
+  if X then Y := X fi ;
+  if (hd X) then
+    Y := (tl X) ;
+    Z := Y
+  fi
+%
+write Y, Z

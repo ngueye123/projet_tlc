@@ -1,0 +1,3 @@
+tests/syntax/ko/14_commentaire_non_ferme.while:7:0: erreur lexicale : fin de fichier inattendue (commentaire non fermé ?)
+tests/syntax/ko/14_commentaire_non_ferme.while:7:0: erreur de syntaxe : attendu : '%', trouvé : la fin du fichier
+2 erreur(s), compilation interrompue.

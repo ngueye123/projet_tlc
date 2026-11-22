@@ -1,0 +1,18 @@
+// Identifiants limites : suffixes ! et ?, chiffres, symboles qui commencent
+// comme un mot-clé (consume, iffy, nilpotent, done) : ce ne sont PAS des mots-clés.
+function empty? :
+read X
+%
+  Res? := X =? nil
+%
+write Res?
+
+function main :
+read Input1, Input2!
+%
+  V2x := (consume nilpotent) ;
+  W! := iffy ;
+  T := (empty? Input1) ;
+  Done := done
+%
+write V2x, W!, T, Done

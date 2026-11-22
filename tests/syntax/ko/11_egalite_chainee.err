@@ -1,0 +1,2 @@
+tests/syntax/ko/11_egalite_chainee.while:5:14: erreur de syntaxe : attendu : '%', trouvé : '=?'
+1 erreur(s), compilation interrompue.

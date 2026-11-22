@@ -1,0 +1,2 @@
+tests/syntax/ko/03_od_manquant.while:5:0: erreur de syntaxe : il manque 'od' avant '%'
+1 erreur(s), compilation interrompue.

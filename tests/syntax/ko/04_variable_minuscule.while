@@ -1,0 +1,7 @@
+// À gauche de := il faut une Variable (majuscule), pas un Symbol.
+function main :
+read X
+%
+  y := X
+%
+write X

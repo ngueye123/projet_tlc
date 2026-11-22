@@ -1,0 +1,2 @@
+tests/syntax/ko/15_read_manquant.while:2:0: erreur de syntaxe : il manque 'read' avant '%'
+1 erreur(s), compilation interrompue.

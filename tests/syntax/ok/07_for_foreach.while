@@ -1,0 +1,13 @@
+// for (répétition [E]int fois) et foreach (parcours de liste), imbriqués.
+function main :
+read L, N
+%
+  Count := nil ;
+  foreach E in L do
+    for N do
+      Count := (cons nil Count)
+    od
+  od ;
+  foreach E in (list a b c) do nop od
+%
+write Count

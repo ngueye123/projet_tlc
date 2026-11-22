@@ -1,0 +1,16 @@
+// Affectation multiple (échange), et fonction à plusieurs valeurs de retour.
+function divmod :
+read A, B
+%
+  Q, R := nil, A
+%
+write Q, R
+
+function main :
+read X, Y
+%
+  X, Y := Y, X ;
+  Q, R := (divmod X Y) ;
+  P := (divmod X Y)
+%
+write Q, R, P

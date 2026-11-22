@@ -1,0 +1,48 @@
+PROGRAM
+  FUNCTION
+    main                      (Symbol)
+    INPUT
+      X                       (Variable)
+      Y                       (Variable)
+    COMMANDS
+      WHILE
+        EQ
+          HD
+            X                 (Variable)
+          NIL
+        COMMANDS
+          ASSIGN
+            VARS
+              X               (Variable)
+            EXPRS
+              TL
+                X             (Variable)
+      IF
+        EQ
+          X                   (Variable)
+          Y                   (Variable)
+        COMMANDS
+          ASSIGN
+            VARS
+              R               (Variable)
+            EXPRS
+              ok              (Symbol)
+        COMMANDS
+          ASSIGN
+            VARS
+              R               (Variable)
+            EXPRS
+              ko              (Symbol)
+      WHILE
+        EQ
+          CALL
+            not               (Symbol)
+            HD
+              X               (Variable)
+          CONS
+            NIL
+            NIL
+        COMMANDS
+          NOP
+    OUTPUT
+      R                       (Variable)

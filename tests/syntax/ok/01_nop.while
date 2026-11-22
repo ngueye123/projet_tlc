@@ -1,0 +1,7 @@
+// Le plus petit programme possible : une fonction qui ne fait rien.
+function main :
+read X
+%
+  nop
+%
+write X

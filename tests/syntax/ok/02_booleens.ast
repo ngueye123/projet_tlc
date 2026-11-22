@@ -1,0 +1,25 @@
+PROGRAM
+  FUNCTION
+    true                      (Symbol)
+    INPUT
+    COMMANDS
+      ASSIGN
+        VARS
+          Result              (Variable)
+        EXPRS
+          CONS
+            NIL
+            NIL
+    OUTPUT
+      Result                  (Variable)
+  FUNCTION
+    false                     (Symbol)
+    INPUT
+    COMMANDS
+      ASSIGN
+        VARS
+          Result              (Variable)
+        EXPRS
+          NIL
+    OUTPUT
+      Result                  (Variable)

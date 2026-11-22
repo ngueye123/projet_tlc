@@ -1,0 +1,2 @@
+tests/syntax/ko/01_parenthese_manquante.while:5:0: erreur de syntaxe : il manque ')' avant '%'
+1 erreur(s), compilation interrompue.

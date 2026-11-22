@@ -1,0 +1,62 @@
+PROGRAM
+  FUNCTION
+    not                       (Symbol)
+    INPUT
+      Op1                     (Variable)
+    COMMANDS
+      IF
+        Op1                   (Variable)
+        COMMANDS
+          ASSIGN
+            VARS
+              Result          (Variable)
+            EXPRS
+              CALL
+                false         (Symbol)
+        COMMANDS
+          ASSIGN
+            VARS
+              Result          (Variable)
+            EXPRS
+              CALL
+                true          (Symbol)
+    OUTPUT
+      Result                  (Variable)
+  FUNCTION
+    and                       (Symbol)
+    INPUT
+      Op1                     (Variable)
+      Op2                     (Variable)
+    COMMANDS
+      IF
+        CALL
+          not                 (Symbol)
+          Op1                 (Variable)
+        COMMANDS
+          ASSIGN
+            VARS
+              Result          (Variable)
+            EXPRS
+              CALL
+                false         (Symbol)
+        COMMANDS
+          IF
+            CALL
+              not             (Symbol)
+              Op2             (Variable)
+            COMMANDS
+              ASSIGN
+                VARS
+                  Result      (Variable)
+                EXPRS
+                  CALL
+                    false     (Symbol)
+            COMMANDS
+              ASSIGN
+                VARS
+                  Result      (Variable)
+                EXPRS
+                  CALL
+                    true      (Symbol)
+    OUTPUT
+      Result                  (Variable)

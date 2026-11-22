@@ -1,0 +1,2 @@
+tests/syntax/ko/13_fichier_vide.while:2:0: erreur de syntaxe : il manque au moins un élément obligatoire (ex. une fonction, une commande) avant la fin du fichier
+1 erreur(s), compilation interrompue.

@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Lanceur du compilateur While : ./whilec [options] fichier.while  (./whilec --help)
+# Nécessite d'avoir lancé ./build.sh au préalable.
+ROOT="$(cd "$(dirname "$0")" && pwd)"
+if [ ! -d "$ROOT/build/whilec" ]; then
+  echo "whilec : compilateur non construit, lancez d'abord ./build.sh" >&2
+  exit 2
+fi
+exec java -cp "$ROOT/build:$ROOT/lib/antlr-3.5.3-complete-no-st3.jar" whilec.Whilec "$@"

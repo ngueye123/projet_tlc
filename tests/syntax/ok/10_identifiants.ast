@@ -1,0 +1,50 @@
+PROGRAM
+  FUNCTION
+    empty?                    (Symbol)
+    INPUT
+      X                       (Variable)
+    COMMANDS
+      ASSIGN
+        VARS
+          Res?                (Variable)
+        EXPRS
+          EQ
+            X                 (Variable)
+            NIL
+    OUTPUT
+      Res?                    (Variable)
+  FUNCTION
+    main                      (Symbol)
+    INPUT
+      Input1                  (Variable)
+      Input2!                 (Variable)
+    COMMANDS
+      ASSIGN
+        VARS
+          V2x                 (Variable)
+        EXPRS
+          CALL
+            consume           (Symbol)
+            nilpotent         (Symbol)
+      ASSIGN
+        VARS
+          W!                  (Variable)
+        EXPRS
+          iffy                (Symbol)
+      ASSIGN
+        VARS
+          T                   (Variable)
+        EXPRS
+          CALL
+            empty?            (Symbol)
+            Input1            (Variable)
+      ASSIGN
+        VARS
+          Done                (Variable)
+        EXPRS
+          done                (Symbol)
+    OUTPUT
+      V2x                     (Variable)
+      W!                      (Variable)
+      T                       (Variable)
+      Done                    (Variable)
